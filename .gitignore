@@ -3,3 +3,14 @@
 ################################################################################
 
 /View/bin/Debug/netcoreapp2.0
+/View/obj
+/Repository/bin/Debug/netcoreapp2.0
+/Repository/obj
+/Model/bin/Debug/netcoreapp2.0
+/Model/obj
+/IoC/bin/Debug/netcoreapp2.0
+/IoC/obj
+/DBContextSQLite/bin/Debug/netcoreapp2.0
+/DBContextSQLite/obj
+/Business/bin/Debug/netcoreapp2.0
+/Business/obj
