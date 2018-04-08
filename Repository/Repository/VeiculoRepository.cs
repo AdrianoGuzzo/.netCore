@@ -13,10 +13,10 @@ namespace Repository.Repository
         {
         }
 
-        public bool IsExisteVericulo(string chassi)
+        public bool IsExisteVeiculo(string chassi)
             => base.IsExist(m => m.Chassi == chassi);
 
-        public bool IsExisteVericulo(string chassi, out Veiculo model)
+        public bool IsExisteVeiculo(string chassi, out Veiculo model)
             => base.IsExist(m => m.Chassi == chassi, out model);
 
         public void ExcluirVeiculo(Guid id)

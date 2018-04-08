@@ -75,7 +75,7 @@ namespace View
 
             Console.Write("Cor: ");
             var cor = Console.ReadLine();
-            if (!_veiculoBusiness.IsExisteVericulo(chassi))
+            if (!_veiculoBusiness.IsExisteVeiculo(chassi))
                 _veiculoBusiness.SalvarVeiculo(new Veiculo
                 {
                     Chassi = chassi,
@@ -90,7 +90,7 @@ namespace View
             Console.Write("Digite o Chassi do veículo a ser editado: ");
             string chassi = Console.ReadLine();
             Veiculo veiculo;
-            if (_veiculoBusiness.IsExisteVericulo(chassi, out veiculo))
+            if (_veiculoBusiness.IsExisteVeiculo(chassi, out veiculo))
             {
                 PrintVeiculo(veiculo);
                 Console.WriteLine("Editar: ");
@@ -107,7 +107,7 @@ namespace View
             Console.Write("Digite o Chassi do veículo a ser excluido: ");
             string chassi = Console.ReadLine();
             Veiculo veiculo;
-            if (_veiculoBusiness.IsExisteVericulo(chassi, out veiculo))
+            if (_veiculoBusiness.IsExisteVeiculo(chassi, out veiculo))
             {
                 PrintVeiculo(veiculo);
                 Console.WriteLine("Deseja realmente excluir esse veículo? ");
@@ -135,7 +135,7 @@ namespace View
             Console.Write("Digite o Chassi do veículo a ser editado: ");
             string chassi = Console.ReadLine();
             Veiculo veiculo;
-            if (_veiculoBusiness.IsExisteVericulo(chassi, out veiculo))
+            if (_veiculoBusiness.IsExisteVeiculo(chassi, out veiculo))
                 PrintVeiculo(veiculo);
             else
                 Console.WriteLine("Veiculo não existe!!!");

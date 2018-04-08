@@ -21,10 +21,10 @@ namespace Business
         public void ExcluirVeiculo(Guid id)
             => _veiculoRepository.ExcluirVeiculo(id);
 
-        public bool IsExisteVericulo(string chassi, out Veiculo model)
-            => _veiculoRepository.IsExisteVericulo(chassi, out model);
-        public bool IsExisteVericulo(string chassi)
-           => _veiculoRepository.IsExisteVericulo(chassi);
+        public bool IsExisteVeiculo(string chassi, out Veiculo model)
+            => _veiculoRepository.IsExisteVeiculo(chassi, out model);
+        public bool IsExisteVeiculo(string chassi)
+           => _veiculoRepository.IsExisteVeiculo(chassi);
 
         public void SalvarVeiculo(Veiculo model)
         {

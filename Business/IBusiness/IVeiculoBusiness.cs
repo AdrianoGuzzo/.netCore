@@ -10,8 +10,8 @@ namespace Business.Interface
         void SalvarVeiculo(Veiculo model);
         void AtualizarVeiculo(Veiculo model);
         IEnumerable<Veiculo> GetVeiculos();
-        bool IsExisteVericulo(string chassi, out Veiculo model);
-        bool IsExisteVericulo(string chassi);
+        bool IsExisteVeiculo(string chassi, out Veiculo model);
+        bool IsExisteVeiculo(string chassi);
         void ExcluirVeiculo(Guid id);
     }
 }

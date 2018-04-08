@@ -10,8 +10,8 @@ namespace Repository.IRepository
         void Salvar(Veiculo model);
         void AtualizarVeiculo(Veiculo model);
         IEnumerable<Veiculo> Read();
-        bool IsExisteVericulo(string chassi, out Veiculo model);
-        bool IsExisteVericulo(string chassi);
+        bool IsExisteVeiculo(string chassi, out Veiculo model);
+        bool IsExisteVeiculo(string chassi);
         void ExcluirVeiculo(Guid id);
     }
 }
