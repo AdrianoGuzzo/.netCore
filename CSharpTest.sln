@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{8A748FAD-8238-48B1-A3F8-065DA01148EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{8A748FAD-8238-48B1-A3F8-065DA01148EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{14DE00AD-5398-4797-8C76-8DCEC4B5898C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{14DE00AD-5398-4797-8C76-8DCEC4B5898C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{00110CB9-D883-423A-87ED-2955F66A6176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBContextSQLite", "DBContextSQLite\DBContextSQLite.csproj", "{0AF64387-DA51-4F6F-963D-AA3DECC4E27F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBContextSQLite", "DBContextSQLite\DBContextSQLite.csproj", "{0AF64387-DA51-4F6F-963D-AA3DECC4E27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{8D32D95F-B75D-4EC1-869E-422B96E55DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{8D32D95F-B75D-4EC1-869E-422B96E55DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{8AAE91B6-0885-4F09-AF46-E1BF995B2055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "View", "View\View.csproj", "{8AAE91B6-0885-4F09-AF46-E1BF995B2055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{9C8DC86B-7B4F-46D6-8174-BAF364D376CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{9C8DC86B-7B4F-46D6-8174-BAF364D376CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AEFE4AF7-2F61-4FF1-916C-DD4CE92A103A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{9C8DC86B-7B4F-46D6-8174-BAF364D376CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8DC86B-7B4F-46D6-8174-BAF364D376CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8DC86B-7B4F-46D6-8174-BAF364D376CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFE4AF7-2F61-4FF1-916C-DD4CE92A103A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFE4AF7-2F61-4FF1-916C-DD4CE92A103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFE4AF7-2F61-4FF1-916C-DD4CE92A103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFE4AF7-2F61-4FF1-916C-DD4CE92A103A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
