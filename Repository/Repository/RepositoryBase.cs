@@ -12,7 +12,7 @@ namespace Repository
 {
     public abstract class RepositoryBase<Model> : IDisposable where Model : ModelBase
     {
-        protected VeiculoContext _context { get; set; }
+        protected readonly VeiculoContext _context;
         public RepositoryBase(VeiculoContext context)
         {
             _context = context;

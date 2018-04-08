@@ -10,7 +10,7 @@ namespace Business
 {
     public class VeiculoBusiness : IVeiculoBusiness
     {
-        private IVeiculoRepository _veiculoRepository { get; set; }
+        readonly IVeiculoRepository _veiculoRepository;
         public VeiculoBusiness(IVeiculoRepository veiculoRepository)
         {
             _veiculoRepository = veiculoRepository;
